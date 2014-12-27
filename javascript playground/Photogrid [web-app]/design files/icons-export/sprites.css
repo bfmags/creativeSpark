@@ -1,0 +1,52 @@
+.download_hover, .download, .reroll, .reroll_hover, .reroll_arrow, .download_arrow, .click_to_change, .logo{
+	background: url(sprites.png) no-repeat;
+}
+
+.download_hover{
+	background-position: -53px -1px ;
+	width: 49px;
+	height: 49px;
+}
+
+.download{
+	background-position: 0 -1px ;
+	width: 49px;
+	height: 49px;
+}
+
+.reroll{
+	background-position: -105px -1px ;
+	width: 48px;
+	height: 49px;
+}
+
+.reroll_hover{
+	background-position: -157px 0;
+	width: 48px;
+	height: 49px;
+}
+
+.reroll_arrow{
+	background-position: -6px -57px ;
+	width: 119px;
+	height: 32px;
+}
+
+.download_arrow{
+	background-position: -2px -97px ;
+	width: 122px;
+	height: 54px;
+}
+
+.click_to_change{
+	background-position: -212px -4px ;
+	width: 106px;
+	height: 93px;
+}
+
+.logo{
+	background-position: -174px -119px ;
+	width: 182px;
+	height: 25px;
+}
+

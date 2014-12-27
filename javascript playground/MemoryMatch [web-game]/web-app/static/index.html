@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>Memory match</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+    <!-- styles includes normalize.css -->
+	<link rel="stylesheet" href="css/styles.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="/js/html5-3.6-respond-1.1.0.min.js"></script>
+    <![endif]-->
+    
+</head>
+<body>
+	
+	<!-- game over : cover with grey and tweet -->	
+	<div id="endgame">
+		<div class="table">
+			<div class="vert-text">
+				<!-- Tweet your score -->
+				<div>
+					<a id="tweet" href="https://twitter.com/intent/tweet?button_hashtag=memorymatch&text=Memory%20JavaScript%20FTW%20!">
+						<img src="img/tweet.png">
+					</a>				
+				</div>
+				<!-- End Tweet your score -->
+			</div>
+		</div>
+	</div>	
+	<!-- End game over -->
+
+	<!-- Logo -->
+	<div id="logoBar">
+		<div class="logo table">
+			<div class="vert-text">
+				<!-- Play Button -->
+				<img src="img/logo.png">
+				<!-- End Play Button -->
+			</div>
+		</div>
+	</div>
+	<!-- End Logo -->
+    
+    <!-- Main Container * 100% centered contents-->
+	<div id="container">
+		<div class="table">    
+			<div class="vert-text"> 
+
+				<!-- Game Grid -->
+					<ul id="grid" class="grid-style shadow">					
+						<img id="start-arrow" src="img/arrow.png">
+					</ul>
+				<!-- End Game Grid --> 
+
+			</div>        
+		</div>
+	</div>
+    <!-- End Main Container -->
+	
+	<!-- Nav Bar -->
+	<div class="Navbar">
+		<div class="table">
+			<div class="vert-text">
+				
+				<!-- Stop Watch -->
+				<div id="pairs">
+				<img src="img/pairs.png">
+				<div id="number-of-pairs">0/9</div>
+				</div>
+				<!-- End Stop Watch -->
+				
+				<!-- Play Button -->
+				<button class="btn" id="new-game">Novo Jogo!</button>
+				<!-- End Play Button -->
+				
+				<!-- Stop Watch -->
+				<div id="stopwatch">
+				<img src="img/stopwatch.png">
+				<div id="cron">00:00</div>
+				</div>
+				<!-- End Stop Watch -->
+				
+			</div>
+		</div>
+	</div>
+	<!-- End Nav Bar -->
+    
+    <!-- Scripts -->
+	<script src="js/main.js"></script>
+	<!-- JsonP Request -->
+	<script type="text/javascript" src="https://services.sapo.pt/Codebits/listbadges?callback=getImages.myCallback"></script>
+	<!-- End Scripts -->
+	
+</body>
+</html>
