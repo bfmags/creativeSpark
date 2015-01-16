@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>831C4369-4DDB-4B9B-B715-2170315508F9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WeatherApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1295E0A16D6310CD797752F8FC59B278F0DA8174</key>
+		<string>github.com:bfmags/creativeSpark.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>swift ios playground/WeatherApp .treehouse/WeatherApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1295E0A16D6310CD797752F8FC59B278F0DA8174</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:bfmags/creativeSpark.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1295E0A16D6310CD797752F8FC59B278F0DA8174</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1295E0A16D6310CD797752F8FC59B278F0DA8174</string>
+			<key>IDESourceControlWCCName</key>
+			<string>creativeSpark</string>
+		</dict>
+	</array>
+</dict>
+</plist>
