@@ -1,9 +1,8 @@
 creativeSpark
 =============
   
-Javascript examples using mostly VanillaJS
+Some stuff done using JavaScript, Java, Lua
 
-```Try it out!```
   
 ##### [![MemoryMatch](javascript playground/mm.png)](http://mmatch-bfmags.appspot.com/) &nbsp; &nbsp;  [![Agrius](javascript playground/ag.png)](http://agrius-html5.appspot.com/)
 ##### [![PhotoGrid](javascript playground/pg.png)](http://photogrid-bfmags.appspot.com/)
