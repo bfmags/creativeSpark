@@ -1,7 +1,7 @@
 creativeSpark
 =============
   
-Some stuff done using JavaScript, Java, Lua
+Some Javascript work examples
 
   
 ##### [![MemoryMatch](javascript playground/mm.png)](http://mmatch-bfmags.appspot.com/) &nbsp; &nbsp;  [![Agrius](javascript playground/ag.png)](http://agrius-html5.appspot.com/)
