@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>pairing-generator-tests</title>
+    <meta charset="utf-8">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="node_modules/mocha/mocha.css">
+</head>
+
+<body>
+    <div id="mocha"></div>
+    <!-- Testing Libraries -->
+    <script src="node_modules/mocha/mocha.js"></script>
+    <script src="node_modules/chai/chai.js"></script>
+    <script src="node_modules/sinon/lib/sinon.js"></script>
+    <script src="node_modules/sinon/lib/sinon/call.js"></script>
+    <script src="node_modules/sinon/lib/sinon/spy.js"></script>
+    <script src="node_modules/sinon/lib/sinon/behavior.js"></script>
+    <script src="node_modules/sinon/lib/sinon/stub.js"></script>
+    <script src="node_modules/sinon/lib/sinon/collection.js"></script>
+    <script src="node_modules/sinon/lib/sinon/assert.js"></script>
+    <script src="node_modules/sinon/lib/sinon/sandbox.js"></script>
+    <script src="node_modules/sinon/lib/sinon/test.js"></script>
+    <script src="node_modules/sinon/lib/sinon/test_case.js"></script>
+    <script src="node_modules/sinon/lib/sinon/match.js"></script>
+    <script src="node_modules/sinon-chai/lib/sinon-chai.js"></script>
+    <script>
+        // Use mocha BDD with chai expect assertions
+        var expect = chai.expect;
+        mocha.setup('bdd');
+    </script>
+
+    <!-- Libs -->
+    <script src="../src/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../src/node_modules/underscore/underscore-min.js"></script>
+    <script src="../src/node_modules/backbone/backbone-min.js"></script>
+    <script src="../src/node_modules/backbone.localstorage/backbone.localStorage.js"></script>
+
+    <!-- Templates -->
+    <script type="text/template" id="developer-template">
+        <div class="view">
+            <label><%- name %></label>
+            <button class="destroy"></button>
+        </div>
+        <input class="edit" value="<%- name %>">
+    </script>
+
+    <!-- Source files -->
+    <script src="../src/js/app.js"></script>
+    <script src="../src/js/models/developer.js"></script>
+    <script src="../src/js/collections/developers.js"></script>
+    <script src="../src/js/views/developer-view.js"></script>
+    <script src="../src/js/views/app-view.js"></script>
+
+    <!-- Tests -->
+    <script src="models/developer.test.js"></script>
+    <script src="collections/developers.test.js"></script>
+    <script src="views/developer-view.test.js"></script>
+    <script src="views/app-view.test.js"></script>
+
+    <script>
+        if (window.mochaPhantomJS) { mochaPhantomJS.run(); }
+        else { mocha.run(); }
+    </script>
+
+</body>
+</html>
