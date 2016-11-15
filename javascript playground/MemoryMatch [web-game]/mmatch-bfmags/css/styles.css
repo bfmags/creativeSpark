@@ -45,7 +45,7 @@ body {
 	z-index: 999;
 	-webkit-transition: opacity 5s ease-in;
 	-moz-transition: opacity 5s ease-in;
-	-o-transition: opacity 5s ease-in;	
+	-o-transition: opacity 5s ease-in;
 }
 
 /* Logo & Top Bar
@@ -53,16 +53,18 @@ body {
 
 #logo {
     position: relative;
-    top: 7px;    
+    top: 7px;
 }
 
 #logoBar {
-    height: 100px;  
-    background-color: #fff;
+    height: 100px;
+    /* background-color: #fff; */
     z-index: 99;
+    margin-top: 50px;
 }
 
-#logoBar, #stripebar {
+/* #logoBar,  */
+#stripebar {
     min-width: 740px;
     width: 100%;
     position: fixed;
@@ -81,12 +83,12 @@ body {
 	min-width: 740px;
 	height: 70px;
 	position: fixed;
-	bottom: 0px;
-	background-color: #fff;
+	bottom: 50px;
+/* 	background-color: #fff;
 	-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
 	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
 	-o-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
-	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3); */
 }
 
 #stopwatch {
@@ -134,7 +136,7 @@ body {
 	border: 5px solid #fff;
 	padding: 0;
 	background: #fc8800;
-	box-sizing: content-box;	
+	box-sizing: content-box;
 	background: url(../img/skulls.png);
 	background-size: 100%;
 }
@@ -180,7 +182,7 @@ ul#grid {
 	color: #fdfdfd;
 	text-align: center;
 	/*text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);*/
-	background: #100e0d;
+	/*background: #100e0d;*/
 	border: 0;
 	border-bottom: 2px solid #483e3e;
 	cursor: pointer;

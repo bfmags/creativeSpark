@@ -200,7 +200,7 @@ var game = {
 					this.badges = imageRandom.sortedImages;
 			
 					GAME_GRID.style.backgroundImage = 'none';
-					NEWGAME_BUTTON.innerHTML = 'Recomeçar';
+					NEWGAME_BUTTON.innerHTML = 'Reset';
 			
 					// hides help text
 					HELP_IMAGE.style.display = 'none';
@@ -389,7 +389,7 @@ var stopWatch = {
  */
 var gameOver = function () {	
 						stopWatch.stop;	
-						var tweet_text = 'Memory JavaScript FTW em ' + stopWatch.getTime() + ' !';							
+						var tweet_text = 'Memory JavaScript FTW in ' + stopWatch.getTime() + ' !';							
 						END_GAME.innerHTML = '<div class="table"><div class="vert-text"><div>' +
 							'<a id="tweet" href="https://twitter.com/intent/tweet?button_hashtag=memorymatch&text=' 
 							+ tweet_text + '"><img src="img/tweet.png"></a></div></div></div>';	
