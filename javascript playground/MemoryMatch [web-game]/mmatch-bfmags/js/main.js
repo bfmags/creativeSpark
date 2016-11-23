@@ -45,6 +45,16 @@ var getImages = {
 						for( var i = 0 ; i < badges.length ; i++ ){
 							this.urls[i] = badges[i].img;							
 					 }		
+		},
+		/**
+		 * Method to load images from disk
+         * @memberof getImages
+		 * @method loadImages
+         */
+		loadImages : function (){
+						for( var i = 0 ; i < 17 ; i++ ){
+							this.urls[i] = 'img/cards/' + i + '.png';							
+					 }		
 		},	
 };
 
@@ -316,7 +326,8 @@ var game = {
          * @memberof game
          * @method initialize
          */
-		initialize : function() {			
+		initialize : function() {
+				getImages.loadImages();		
 				this.generateGrid();
 				NEWGAME_BUTTON.setAttribute('onclick', 'game.newGame();');			
 		}	

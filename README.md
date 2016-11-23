@@ -12,13 +12,12 @@
 
     http://agrius-html5.appspot.com/
 
-[![photogrid](https://cloud.githubusercontent.com/assets/3740101/20321901/ff8adad4-ab6e-11e6-98c8-51559f9d089a.png)](http://mmatch-bfmags.appspot.com/)
+[![photogrid](https://cloud.githubusercontent.com/assets/3740101/20581557/a9cebfca-b1d1-11e6-81a8-dee969af32be.png)](http://photogrid-bfmags.appspot.com/)
 
-    http://mmatch-bfmags.appspot.com/
+    http://photogrid-bfmags.appspot.com/
     https://github.com/bfmags/creativeSpark/tree/master/javascript%20playground/Photogrid%20%5Bweb-app%5D/photogrid-bfmags
-
 &nbsp;
-[![tribesatwar](https://cloud.githubusercontent.com/assets/3740101/20321903/ff9b5968-ab6e-11e6-8b1c-ef771c8e3dbe.png)]()
-
 &nbsp;
-<img src="https://cloud.githubusercontent.com/assets/3740101/20558707/4c3fe784-b169-11e6-9e45-1bee52a5b0a9.gif" width="48%"> ' <img src="https://cloud.githubusercontent.com/assets/3740101/20559428/437b5298-b16c-11e6-81d4-75a714158b40.gif" width="48%">
+<img src="https://cloud.githubusercontent.com/assets/3740101/20558707/4c3fe784-b169-11e6-9e45-1bee52a5b0a9.gif" width="49%"><img src="https://cloud.githubusercontent.com/assets/3740101/20580607/32292f6a-b1cb-11e6-8f01-1a6ad9afd55b.png" width="1.5%"><img src="https://cloud.githubusercontent.com/assets/3740101/20559428/437b5298-b16c-11e6-81d4-75a714158b40.gif" width="49%">
+<img src="https://cloud.githubusercontent.com/assets/3740101/20581342/2b28d1d4-b1d0-11e6-9450-b57b8dbfa4d1.png" width="100%">
+<img src="https://cloud.githubusercontent.com/assets/3740101/20581566/bb0c0dec-b1d1-11e6-8470-ab7f7a4a251f.png" width="100%">
