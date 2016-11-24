@@ -52,7 +52,7 @@ var getImages = {
 		 * @method loadImages
          */
 		loadImages : function (){
-						for( var i = 0 ; i < 17 ; i++ ){
+						for( var i = 0 ; i < 28 ; i++ ){
 							this.urls[i] = 'img/cards/' + i + '.png';							
 					 }		
 		},	
